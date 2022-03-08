@@ -34,7 +34,7 @@ h6 {
 
 a.filled-button {
   background-color: #b41313;
-  color: black;
+  color: white !important;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
@@ -873,11 +873,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   padding: 30px;
 }
 
-.service-item .down-content h4 {
+.down-content h4 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.25px;
   margin-bottom: 15px;
+  color: white !important;
 }
 
 .service-item .down-content p {
@@ -930,141 +931,20 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /* Contact */
-.callback-services {
-  border-top: 1px solid #eee;
-  padding-top: 140px;
-}
-
-.contact-us {
-  background-color: #f7f7f7;
-  padding: 140px 0px;
-}
-
-.contact-us .contact-form {
-  background-color: transparent !important;
-  padding: 0 !important;
-}
-
-.callback-form {
-  margin-top: 140px;
-}
-
-.callback-form .contact-form {
-  background-color: #b41313;
-  padding: 60px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.callback-form .contact-form input {
-  border-radius: 20px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  padding: 0px 15px;
-  color: #6a6a6a;
-  font-size: 13px;
-  text-transform: none;
-  box-shadow: none;
-  border: none;
-  margin-bottom: 35px;
-}
-
-.callback-form .contact-form input:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.callback-form .contact-form textarea {
-  border-radius: 20px;
-  height: 120px;
-  max-height: 200px;
-  min-height: 120px;
-  display: inline-block;
-  padding: 15px;
-  color: #6a6a6a;
-  font-size: 13px;
-  text-transform: none;
-  box-shadow: none;
-  border: none;
-  margin-bottom: 35px;
-}
-
-.callback-form .contact-form textarea:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.callback-form .contact-form ::-webkit-input-placeholder {
-  /* Edge */
-  color: #aaa;
-}
-
-.callback-form .contact-form :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #aaa;
-}
-
-.callback-form .contact-form ::placeholder {
-  color: #aaa;
-}
-
-.callback-form .contact-form button.border-button {
-  background-color: transparent;
-  color: black;
-  border: 2px solid black;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px 28px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-  outline: none;
-  box-shadow: none;
-  text-shadow: none;
-  cursor: pointer;
-}
-
-.callback-form .contact-form button.border-button:hover {
-  background-color: black;
-  color: #b41313;
-}
-
-.contact-us .contact-form button.filled-button {
-  background-color: #b41313;
-  color: black;
-  border: none;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-  outline: none;
-  box-shadow: none;
-  text-shadow: none;
-  cursor: pointer;
-}
-
-.contact-us .contact-form button.filled-button:hover {
-  background-color: black;
-  color: #b41313;
+.contact .section-heading {
+  margin-bottom: 0px;
 }
 
 /* Footer */
 #footer {
-  background: #4f7eb3bb;
+  background: #b41313;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #4f7eb3bb;
+  background: #830a0a;
   padding: 60px 0 30px 0;
 }
 
@@ -1193,8 +1073,8 @@ Due to the split circle of progress-left and progress right, we must use the ani
   background: black;
 }
 
-.footer-links h4{
-  margin-left: 20px;
+.footer-newsletter p {
+  color: white;
 }
 
 #footer .copyright {
@@ -1404,7 +1284,8 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .more-info .right-content {
     padding: 30px;
   }
-  footer {
+
+  /* footer {
     padding: 80px 0px 20px 0px;
   }
   footer .footer-item {
@@ -1414,7 +1295,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
   footer .last-item {
     border-bottom: none;
-  }
+  } */
   .about-info .right-content {
     margin-right: 0px;
     margin-bottom: 30px;
@@ -1477,7 +1358,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 #subscribe {
   padding: 80px 0px;
   /* background-image: url(../images/slide-02.jpg); */
-  background-color: rgb(212, 1, 1);
+  background-color: #b41313;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1485,15 +1366,29 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 #subscribe .section-heading {
   text-align: center;
-  color: black;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
-#subscribe p {
+#subscribe .section-heading h2 {
   text-align: center;
   font-size: 16px;
   line-height: 27px;
-  color: black;
+  color: white !important;
+  margin-bottom: 16px;
+}
+
+#subscribe .section-heading h6 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 27px;
+  color: white !important;
+}
+
+.subscribe-content p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  color: white !important;
   margin-bottom: 40px;
 }
 
@@ -1501,12 +1396,17 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: 100%;
   height: 38px;
   border-radius: 19px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: transparent;
   padding: 0px 20px;
   font-size: 13px;
-  color: black;
+  color: white;
   outline: none;
+}
+
+.subscribe-form {
+  margin-left: 16%;
+  margin-right: 16%;
 }
 
 .subscribe-form ::-webkit-input-placeholder {
@@ -1514,13 +1414,26 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: black;
 }
 
+#form-submit {
+  background-color: white;
+  color: #b41313;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  margin-left: -20px;
+}
+
 .subscribe-form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: black;
+  color: white;
 }
 
 .subscribe-form ::placeholder {
-  color: black;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -1528,4 +1441,25 @@ Due to the split circle of progress-left and progress right, we must use the ani
     text-align: center;
     margin-bottom: 20px;
   }
+}
+
+/* Pricing */
+.pricing-btn {
+  width: 75%;
+}
+
+.pricing-box {
+  border-bottom: 2px solid #b41313;
+  padding: 50px;
+}
+
+.pricing-box:hover {
+  box-shadow: 0px 25px 50px -6px #313131;
+  border-bottom: 3px solid #b41313;
+  transition: all 0.7s;
+}
+
+.pricing-box .ribbon {
+  background-color: #b41313;
+  color: #fff;
 }
