@@ -974,7 +974,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-size: 18px;
   display: inline-block;
   background: white;
-  color: #38608dbb;
+  color: #830a0a;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -986,7 +986,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #38608dbb;
+  background: #830a0a;
   color: #fff;
   text-decoration: none;
 }
@@ -1011,7 +1011,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4f7eb3bb;
+  color: #830a0a;
   font-size: 18px;
   line-height: 1;
 }
@@ -1063,7 +1063,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #4f7eb3bb;
+  background: #5c0404;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
