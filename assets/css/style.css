@@ -975,6 +975,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-size: 14px;
   color: #7a7a7a;
   margin-bottom: 0px;
+  margin-right: 50px;
 }
 
 /* Contact Info */
