@@ -49,7 +49,7 @@ a.filled-button:hover {
   color: #b41313;
 }
 
-a.border-button {
+/* a.border-button {
   background-color: transparent;
   color: black;
   border: 2px solid black;
@@ -65,7 +65,7 @@ a.border-button {
 a.border-button:hover {
   background-color: black;
   color: #b41313;
-}
+} */
 
 .section-heading {
   text-align: center;
@@ -86,7 +86,7 @@ a.border-button:hover {
   letter-spacing: 1px;
 }
 
-#preloader {
+/* #preloader {
   overflow: hidden;
   background: #b41313;
   left: 0;
@@ -163,7 +163,7 @@ a.border-button:hover {
   100% {
     opacity: 0;
   }
-}
+} */
 
 /* Header section */
 header {
@@ -219,10 +219,10 @@ header .navbar {
   transition: all 0.3s ease 0s;
 }
 
-.navbar .navbar-brand h2 em {
+/* .navbar .navbar-brand h2 em {
   font-style: normal;
   font-size: 16px;
-}
+} */
 
 #navbarResponsive {
   z-index: 999;
@@ -278,7 +278,7 @@ header .navbar {
 }
 
 /* Hero section */
-.page-heading {
+.hero {
   text-align: center;
   background-image: url(../images/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg);
   background-position: center center;
@@ -288,20 +288,20 @@ header .navbar {
   color: white;
 }
 
-.page-heading h1 {
+.hero h1 {
   font-size: 46px;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.page-heading span {
+.hero span {
   font-size: 15px;
   letter-spacing: 1px;
   color: white;
   display: block;
 }
 
-.img-fill {
+/* .img-fill {
   width: 100%;
   display: block;
   overflow: hidden;
@@ -315,19 +315,19 @@ header .navbar {
   position: relative;
   display: inline-block;
   max-width: none;
-}
+} */
 
-*,
+/* *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /* Request Form */
-.request-form {
+/* .request-form {
   background-color: #b41313;
   padding: 40px 0px;
   color: black;
@@ -343,28 +343,28 @@ header .navbar {
   font-weight: 400;
   display: inline-block;
   margin-top: 10px;
-}
+} */
 
-.request-form a.border-button {
+/* .request-form a.border-button {
   margin-top: 12px;
   float: right;
-}
+} */
 
 /* About section */
 #about {
   padding-top: 130px;
 }
 
-.about-left-image img {
+/* .about-left-image img {
   margin-right: 45px;
-}
+} */
 
-.about-right-content p {
+/* .about-right-content p {
   margin-top: -17px;
   margin-bottom: 15px;
-}
+} */
 
-.skills-content {
+/* .skills-content {
   position: relative;
   z-index: 1;
   margin-top: -50px;
@@ -472,12 +472,12 @@ header .navbar {
   text-transform: none;
   color: #afafaf;
   font-weight: 300;
-}
+} */
 
 /* This for loop creates the  necessary css animation names 
 Due to the split circle of progress-left and progress right, we must use the animations on each side. 
 */
-.progress[data-percentage="10"] .progress-right .progress-bar {
+/* .progress[data-percentage="10"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
 .progress[data-percentage="10"] .progress-left .progress-bar {
@@ -599,7 +599,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 .progress {
   margin-bottom: 1em;
-}
+} */
 
 /* Statistics */
 .statstics {
@@ -629,11 +629,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /* Services */
-.services {
+/* .services {
   margin-top: 140px;
-}
+} */
 
-.service-item img {
+/* .service-item img {
   width: 100%;
   overflow: hidden;
 }
@@ -641,7 +641,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .service-item .down-content {
   background-color: #f7f7f7;
   padding: 30px;
-}
+} */
 
 .down-content h4 {
   font-size: 20px;
@@ -651,16 +651,16 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: white !important;
 }
 
-.service-item .down-content p {
+.down-content p {
   margin-bottom: 20px;
 }
 
 /* Testimonials Style */
-.about-testimonials {
+/* .about-testimonials {
   margin-top: 0px !important;
-}
+} */
 
-.testimonials {
+/* .testimonials {
   margin-top: 140px;
   background-color: #f7f7f7;
   padding: 140px 0px;
@@ -698,12 +698,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   max-width: 60px;
   border-radius: 50%;
   margin: 25px auto 0px auto;
-}
-
-/* Contact */
-.contact .section-heading {
-  margin-bottom: 0px;
-}
+} */
 
 /* Footer */
 #footer {
@@ -978,8 +973,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-right: 50px;
 }
 
-/* Contact Info */
-.contact-information {
+/* Contact */
+.contact .section-heading {
+  margin-bottom: 0px;
+}
+
+/* .contact-information {
   margin-top: 140px;
 }
 
@@ -1010,11 +1009,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-weight: 600;
   color: #b41313;
   font-size: 15px;
-}
+} */
 
 /* Responsive Style */
 @media (max-width: 768px) {
-  .sub-header {
+   /* .sub-header {
     display: none;
   }
   .Modern-Slider .item h6 {
@@ -1040,12 +1039,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
   .request-form {
     text-align: center;
-  }
-  .request-form a.border-button {
+  } */
+  /* .request-form a.border-button {
     float: none;
     margin-top: 30px;
-  }
-  .services .service-item {
+  } */
+  /* .services .service-item {
     margin-bottom: 30px;
   }
   .fun-facts .left-content {
@@ -1054,7 +1053,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
   .more-info .right-content {
     padding: 30px;
-  }
+  } */
 
   /* footer {
     padding: 80px 0px 20px 0px;
@@ -1067,10 +1066,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
   footer .last-item {
     border-bottom: none;
   } */
-  .about-info .right-content {
+  /* .about-info .right-content {
     margin-right: 0px;
     margin-bottom: 30px;
-  }
+  } */
   .team .team-item {
     margin-bottom: 30px;
   }
@@ -1078,9 +1077,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
     margin-left: 0px;
     margin-top: 30px;
   }
-  .contact-item {
+  /* .contact-item {
     margin-bottom: 30px;
-  }
+  } */
 }
 
 @media (max-width: 992px) {
