@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -49,24 +50,6 @@ a.filled-button:hover {
   color: #b41313;
 }
 
-/* a.border-button {
-  background-color: transparent;
-  color: black;
-  border: 2px solid black;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px 28px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-a.border-button:hover {
-  background-color: black;
-  color: #b41313;
-} */
-
 .section-heading {
   text-align: center;
   margin-bottom: 80px;
@@ -86,86 +69,7 @@ a.border-button:hover {
   letter-spacing: 1px;
 }
 
-/* #preloader {
-  overflow: hidden;
-  background: #b41313;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 9999999;
-  color: black;
-}
-
-#preloader .jumper {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  position: absolute;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-}
-
-#preloader .jumper > div {
-  background-color: black;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  position: absolute;
-  opacity: 0;
-  width: 50px;
-  height: 50px;
-  -webkit-animation: jumper 1s 0s linear infinite;
-  animation: jumper 1s 0s linear infinite;
-}
-
-#preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0.33333s;
-  animation-delay: 0.33333s;
-}
-
-#preloader .jumper > div:nth-child(3) {
-  -webkit-animation-delay: 0.66666s;
-  animation-delay: 0.66666s;
-}
-
-@-webkit-keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
-@keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
-
-/* Header section */
+/* Header */
 header {
   position: absolute;
   z-index: 99999;
@@ -218,11 +122,6 @@ header .navbar {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
-/* .navbar .navbar-brand h2 em {
-  font-style: normal;
-  font-size: 16px;
-} */
 
 #navbarResponsive {
   z-index: 999;
@@ -280,7 +179,7 @@ header .navbar {
 /* Hero section */
 .hero {
   text-align: center;
-  background-image: url(../images/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg);
+  background-image: url(../images/hero-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,307 +200,7 @@ header .navbar {
   display: block;
 }
 
-/* .img-fill {
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-}
-
-.img-fill img {
-  min-height: 100%;
-  min-width: 100%;
-  position: relative;
-  display: inline-block;
-  max-width: none;
-} */
-
-/* *,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* Request Form */
-/* .request-form {
-  background-color: #b41313;
-  padding: 40px 0px;
-  color: black;
-}
-
-.request-form h4 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.request-form span {
-  font-size: 15px;
-  font-weight: 400;
-  display: inline-block;
-  margin-top: 10px;
-} */
-
-/* .request-form a.border-button {
-  margin-top: 12px;
-  float: right;
-} */
-
-/* About section */
-#about {
-  padding-top: 130px;
-}
-
-/* .about-left-image img {
-  margin-right: 45px;
-} */
-
-/* .about-right-content p {
-  margin-top: -17px;
-  margin-bottom: 15px;
-} */
-
-/* .skills-content {
-  position: relative;
-  z-index: 1;
-  margin-top: -50px;
-  background-color: #f5f5f5;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  padding: 110px 0px 50px 0px;
-}
-
-.skill-item {
-  text-align: center;
-}
-
-.progress {
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
-  background: none;
-  margin: 0 auto;
-  box-shadow: none;
-  position: relative;
-}
-.progress:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 5px solid black;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.progress > span {
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-}
-.progress .progress-left {
-  left: 0;
-}
-.progress .progress-bar {
-  width: 100%;
-  height: 100%;
-  background: none;
-  border-width: 5px;
-  border-style: solid;
-  position: absolute;
-  top: 0;
-  border-color: #38c462;
-}
-
-.first-skill-item .progress .progress-bar {
-  border-color: #38c462;
-}
-
-.second-skill-item .progress .progress-bar {
-  border-color: #38c462;
-}
-
-.third-skill-item .progress .progress-bar {
-  border-color: #38c462;
-}
-
-.progress .progress-left .progress-bar {
-  left: 100%;
-  border-top-right-radius: 75px;
-  border-bottom-right-radius: 75px;
-  border-left: 0;
-  -webkit-transform-origin: center left;
-  transform-origin: center left;
-}
-.progress .progress-right {
-  right: 0;
-}
-.progress .progress-right .progress-bar {
-  left: -100%;
-  border-top-left-radius: 75px;
-  border-bottom-left-radius: 75px;
-  border-right: 0;
-  -webkit-transform-origin: center right;
-  transform-origin: center right;
-}
-.progress .progress-value {
-  text-align: center;
-  color: #2a2a2a;
-  display: flex;
-  width: 100%;
-  border-radius: 50%;
-  font-size: 35px;
-  text-align: center;
-  line-height: 25px;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-weight: 700;
-}
-.progress .progress-value div {
-  margin-top: 10px;
-}
-.progress .progress-value span {
-  font-size: 18px;
-  text-transform: none;
-  color: #afafaf;
-  font-weight: 300;
-} */
-
-/* This for loop creates the  necessary css animation names 
-Due to the split circle of progress-left and progress right, we must use the animations on each side. 
-*/
-/* .progress[data-percentage="10"] .progress-right .progress-bar {
-  animation: loading-1 1.5s linear forwards;
-}
-.progress[data-percentage="10"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-.progress[data-percentage="20"] .progress-right .progress-bar {
-  animation: loading-2 1.5s linear forwards;
-}
-.progress[data-percentage="20"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-.progress[data-percentage="30"] .progress-right .progress-bar {
-  animation: loading-3 1.5s linear forwards;
-}
-.progress[data-percentage="30"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-.progress[data-percentage="40"] .progress-right .progress-bar {
-  animation: loading-4 1.5s linear forwards;
-}
-.progress[data-percentage="40"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-.progress[data-percentage="50"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="50"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-.progress[data-percentage="60"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="60"] .progress-left .progress-bar {
-  animation: loading-1 1.5s linear forwards 1.5s;
-}
-
-.progress[data-percentage="70"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="70"] .progress-left .progress-bar {
-  animation: loading-2 1.5s linear forwards 1.5s;
-}
-
-.progress[data-percentage="80"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="80"] .progress-left .progress-bar {
-  animation: loading-3 1.5s linear forwards 1.5s;
-}
-
-.progress[data-percentage="90"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="90"] .progress-left .progress-bar {
-  animation: loading-4 1.5s linear forwards 1.5s;
-}
-
-.progress[data-percentage="100"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.progress[data-percentage="100"] .progress-left .progress-bar {
-  animation: loading-5 1.5s linear forwards 1.5s;
-}
-
-@keyframes loading-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(36);
-    transform: rotate(36deg);
-  }
-}
-@keyframes loading-2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(72);
-    transform: rotate(72deg);
-  }
-}
-@keyframes loading-3 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(108);
-    transform: rotate(108deg);
-  }
-}
-@keyframes loading-4 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(144);
-    transform: rotate(144deg);
-  }
-}
-@keyframes loading-5 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(180);
-    transform: rotate(180deg);
-  }
-}
-.progress {
-  margin-bottom: 1em;
-} */
-
-/* Statistics */
+/* Statistics section */
 .statstics {
   border-bottom: 1px solid white;
   background-color: black;
@@ -628,21 +227,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-size: 1rem;
 }
 
-/* Services */
-/* .services {
-  margin-top: 140px;
-} */
-
-/* .service-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.service-item .down-content {
-  background-color: #f7f7f7;
-  padding: 30px;
-} */
-
 .down-content h4 {
   font-size: 20px;
   font-weight: 700;
@@ -655,50 +239,229 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 20px;
 }
 
-/* Testimonials Style */
-/* .about-testimonials {
-  margin-top: 0px !important;
-} */
-
-/* .testimonials {
-  margin-top: 140px;
-  background-color: #f7f7f7;
-  padding: 140px 0px;
+/* About section */
+#about {
+  padding-top: 130px;
 }
 
-.testimonial-item .inner-content {
-  text-align: center;
-  background-color: black;
-  padding: 30px;
-  border-radius: 5px;
+.about {
+  margin-top: 20px;
 }
 
-.testimonial-item p {
-  font-size: 14px;
-  font-weight: 400;
+#tabs ul {
+  margin: 0;
+  padding: 0;
 }
 
-.testimonial-item h4 {
-  font-size: 19px;
-  font-weight: 700;
-  color: #1e1e1e;
-  letter-spacing: 0.5px;
+#tabs ul li {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+#tabs ul li:last-child {
   margin-bottom: 0px;
 }
 
-.testimonial-item span {
+#tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 30px 30px;
   display: inline-block;
-  margin-top: 8px;
-  font-weight: 600;
-  font-size: 14px;
-  color: #b41313;
+  background-color: #b41313;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: all 0.3s;
 }
 
-.testimonial-item img {
-  max-width: 60px;
-  border-radius: 50%;
-  margin: 25px auto 0px auto;
-} */
+#tabs ul li a i {
+  float: right;
+  margin-top: 5px;
+}
+
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+
+#tabs ul .ui-tabs-active a {
+  color: black;
+}
+
+#tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+
+.tabs-content {
+  margin-left: 30px;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.tabs-content img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.tabs-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.tabs-content p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+/* Subscribe/CTA section */
+#subscribe {
+  padding: 80px 0px;
+  background-color: #b41313;
+}
+
+#subscribe .section-heading {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#subscribe .section-heading h2 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  color: white !important;
+  margin-bottom: 16px;
+}
+
+#subscribe .section-heading h6 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 27px;
+  color: white !important;
+}
+
+.subscribe-content p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  color: white !important;
+  margin-bottom: 40px;
+}
+
+#subscribe input {
+  width: 100%;
+  height: 38px;
+  border-radius: 19px;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0px 20px;
+  font-size: 13px;
+  color: white;
+  outline: none;
+}
+
+.subscribe-form {
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.subscribe-form ::-webkit-input-placeholder {
+  /* Edge */
+  color: black;
+}
+
+#form-submit {
+  background-color: white;
+  color: #b41313;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  margin-left: -20px;
+}
+
+.subscribe-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.subscribe-form ::placeholder {
+  color: white;
+}
+
+/* Pricing section */
+.pricing-btn {
+  width: 75%;
+}
+
+.pricing-box {
+  border-bottom: 2px solid #b41313;
+  padding: 50px;
+}
+
+.pricing-box:hover {
+  box-shadow: 0px 25px 50px -6px #313131;
+  border-bottom: 3px solid #b41313;
+  transition: all 0.7s;
+}
+
+.pricing-box .ribbon {
+  background-color: #b41313;
+  color: #fff;
+}
+
+/* Team section */
+.team {
+  background-color: #f7f7f7;
+  margin-top: 140px;
+  padding: 120px 0px;
+}
+
+.team-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team-item .down-content {
+  background-color: black;
+  padding: 30px;
+}
+
+.team-item .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+}
+
+.team-item .down-content span {
+  color: #b41313;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.team-item .down-content p {
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact .section-heading {
+  margin-bottom: 0px;
+}
 
 /* Footer */
 #footer {
@@ -857,219 +620,8 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: white;
 }
 
-/* team */
-.team {
-  background-color: #f7f7f7;
-  margin-top: 140px;
-  padding: 120px 0px;
-}
-
-.team-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.team-item .down-content {
-  background-color: black;
-  padding: 30px;
-}
-
-.team-item .down-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 10px;
-}
-
-.team-item .down-content span {
-  color: #b41313;
-  font-weight: 600;
-  font-size: 14px;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.team-item .down-content p {
-  margin-bottom: 20px;
-}
-
-/* Single Service */
-.about {
-  margin-top: 20px;
-}
-
-#tabs ul {
-  margin: 0;
-  padding: 0;
-}
-
-#tabs ul li {
-  margin-bottom: 10px;
-  display: inline-block;
-  width: 100%;
-}
-
-#tabs ul li:last-child {
-  margin-bottom: 0px;
-}
-
-#tabs ul li a {
-  text-transform: capitalize;
-  width: 100%;
-  padding: 30px 30px;
-  display: inline-block;
-  background-color: #b41313;
-  font-size: 20px;
-  color: white;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  transition: all 0.3s;
-}
-
-#tabs ul li a i {
-  float: right;
-  margin-top: 5px;
-}
-
-#tabs ul .ui-tabs-active span {
-  background: #faf5b2;
-  border: #faf5b2;
-  line-height: 90px;
-  border-bottom: none;
-}
-
-#tabs ul .ui-tabs-active a {
-  color: black;
-}
-
-#tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
-}
-
-.tabs-content {
-  margin-left: 30px;
-  text-align: left;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-.tabs-content img {
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.tabs-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-  margin-top: 30px;
-}
-
-.tabs-content p {
-  font-size: 14px;
-  color: #7a7a7a;
-  margin-bottom: 0px;
-  margin-right: 50px;
-}
-
-/* Contact */
-.contact .section-heading {
-  margin-bottom: 0px;
-}
-
-/* .contact-information {
-  margin-top: 140px;
-}
-
-.contact-information .contact-item {
-  padding: 60px 30px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.contact-information .contact-item i {
-  color: #b41313;
-  font-size: 48px;
-  margin-bottom: 40px;
-}
-
-.contact-information .contact-item h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-}
-
-.contact-information .contact-item p {
-  margin-bottom: 20px;
-}
-
-.contact-information .contact-item a {
-  font-weight: 600;
-  color: #b41313;
-  font-size: 15px;
-} */
-
 /* Responsive Style */
 @media (max-width: 768px) {
-   /* .sub-header {
-    display: none;
-  }
-  .Modern-Slider .item h6 {
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  .Modern-Slider .item h4 {
-    margin-bottom: 25px;
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: 1px;
-  }
-  .Modern-Slider .item p {
-    max-width: 570px;
-    line-height: 25px;
-    margin-bottom: 30px;
-  }
-  .Modern-Slider .NextArrow {
-    right: 5px;
-  }
-  .Modern-Slider .PrevArrow {
-    left: 5px;
-  }
-  .request-form {
-    text-align: center;
-  } */
-  /* .request-form a.border-button {
-    float: none;
-    margin-top: 30px;
-  } */
-  /* .services .service-item {
-    margin-bottom: 30px;
-  }
-  .fun-facts .left-content {
-    margin-right: 0px;
-    margin-bottom: 30px;
-  }
-  .more-info .right-content {
-    padding: 30px;
-  } */
-
-  /* footer {
-    padding: 80px 0px 20px 0px;
-  }
-  footer .footer-item {
-    border-bottom: 1px solid #343434;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-  }
-  footer .last-item {
-    border-bottom: none;
-  } */
-  /* .about-info .right-content {
-    margin-right: 0px;
-    margin-bottom: 30px;
-  } */
   .team .team-item {
     margin-bottom: 30px;
   }
@@ -1077,9 +629,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
     margin-left: 0px;
     margin-top: 30px;
   }
-  /* .contact-item {
-    margin-bottom: 30px;
-  } */
+  #subscribe fieldset {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1122,114 +675,4 @@ Due to the split circle of progress-left and progress right, we must use the ani
     color: #b41313 !important;
     border-bottom: none !important;
   }
-}
-
-/* subscribe/CTA */
-#subscribe {
-  padding: 80px 0px;
-  /* background-image: url(../images/slide-02.jpg); */
-  background-color: #b41313;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#subscribe .section-heading {
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-#subscribe .section-heading h2 {
-  text-align: center;
-  font-size: 16px;
-  line-height: 27px;
-  color: white !important;
-  margin-bottom: 16px;
-}
-
-#subscribe .section-heading h6 {
-  text-align: center;
-  font-size: 32px;
-  line-height: 27px;
-  color: white !important;
-}
-
-.subscribe-content p{
-  text-align: center;
-  font-size: 16px;
-  line-height: 27px;
-  color: white !important;
-  margin-bottom: 40px;
-}
-
-#subscribe input {
-  width: 100%;
-  height: 38px;
-  border-radius: 19px;
-  border: 1px solid white;
-  background-color: transparent;
-  padding: 0px 20px;
-  font-size: 13px;
-  color: white;
-  outline: none;
-}
-
-.subscribe-form {
-  margin-left: 16%;
-  margin-right: 16%;
-}
-
-.subscribe-form ::-webkit-input-placeholder {
-  /* Edge */
-  color: black;
-}
-
-#form-submit {
-  background-color: white;
-  color: #b41313;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-  margin-left: -20px;
-}
-
-.subscribe-form :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: white;
-}
-
-.subscribe-form ::placeholder {
-  color: white;
-}
-
-@media (max-width: 767px) {
-  #subscribe fieldset {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-}
-
-/* Pricing */
-.pricing-btn {
-  width: 75%;
-}
-
-.pricing-box {
-  border-bottom: 2px solid #b41313;
-  padding: 50px;
-}
-
-.pricing-box:hover {
-  box-shadow: 0px 25px 50px -6px #313131;
-  border-bottom: 3px solid #b41313;
-  transition: all 0.7s;
-}
-
-.pricing-box .ribbon {
-  background-color: #b41313;
-  color: #fff;
 }
