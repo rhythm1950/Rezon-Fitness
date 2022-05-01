@@ -1,4 +1,6 @@
 /* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -99,10 +101,10 @@ header .navbar {
 }
 
 .background-header .navbar-nav .nav-link:hover,
-.background-header .navbar-nav .active > .nav-link,
+.background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
-.background-header .navbar-nav .show > .nav-link {
+.background-header .navbar-nav .show>.nav-link {
   color: white !important;
 }
 
@@ -146,10 +148,10 @@ header .navbar {
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active > .nav-link,
+.navbar .navbar-nav .active>.nav-link,
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show > .nav-link {
+.navbar .navbar-nav .show>.nav-link {
   color: white;
 }
 
@@ -216,13 +218,13 @@ header .navbar {
   transition: all 0.7s;
 }
 
-.counter-div h2{
+.counter-div h2 {
   color: white !important;
   font-weight: bold;
   font-size: 3rem;
 }
 
-.counter-div p{
+.counter-div p {
   color: white !important;
   font-size: 1rem;
 }
@@ -349,7 +351,7 @@ header .navbar {
   color: white !important;
 }
 
-.subscribe-content p{
+.subscribe-content p {
   text-align: center;
   font-size: 16px;
   line-height: 27px;
@@ -616,7 +618,8 @@ header .navbar {
   font-size: 13px;
   color: #fff;
 }
-#footer .credits a{
+
+#footer .credits a {
   color: white;
 }
 
@@ -625,10 +628,12 @@ header .navbar {
   .team .team-item {
     margin-bottom: 30px;
   }
+
   .tabs-content {
     margin-left: 0px;
     margin-top: 30px;
   }
+
   #subscribe fieldset {
     text-align: center;
     margin-bottom: 20px;
@@ -641,12 +646,15 @@ header .navbar {
     left: 30px;
     top: 10px;
   }
+
   .navbar .navbar-brand {
     width: auto;
   }
+
   .navbar:after {
     display: none;
   }
+
   #navbarResponsive {
     z-index: 99999;
     position: absolute;
@@ -657,21 +665,25 @@ header .navbar {
     background-color: black;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   }
+
   .navbar .navbar-nav .nav-item {
     border-bottom: 1px solid #eee;
   }
+
   .navbar .navbar-nav .nav-item:last-child {
     border-bottom: none;
   }
+
   .navbar .navbar-nav a.nav-link {
     padding: 15px 0px;
     color: black !important;
   }
+
   .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .active > .nav-link,
+  .navbar .navbar-nav .active>.nav-link,
   .navbar .navbar-nav .nav-link.current,
   .navbar .navbar-nav .nav-link.show,
-  .navbar .navbar-nav .show > .nav-link {
+  .navbar .navbar-nav .show>.nav-link {
     color: #b41313 !important;
     border-bottom: none !important;
   }
